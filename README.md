@@ -1,4 +1,4 @@
-# Pause-Your-Program
+# Pause-Your-Program (Linux)
 Tool to decrease PC power usage when afk by suspending a single program with a keybind.
 
 ## Usage
