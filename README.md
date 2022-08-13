@@ -33,4 +33,3 @@ I do not have an AMD graphics card, so I could not test these commands.
 
 ## Known "issue"
 The paused program still registers all keyboard and mouse inputs and will "use" them as soon as the program is unpaused.
-A workaround would be to ALT+TAB out of the program. 
