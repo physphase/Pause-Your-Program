@@ -26,5 +26,11 @@ in the command prompt:
 - Simply delete the GreenGaming folder
 
 ## Check GPU usage 
-for Nvidia: check gpu usage by using the command "nvidia-smi". This shows GPU power usage and the load percentage.
-for AMD: Try checking the GPU utilization by using the commands "amdconfig --odgc" and "amdconfig --odgt". I do not have an AMD graphics card, so I could not test these commands.
+for Nvidia: check gpu usage by using the command ````nvidia-smi````.   
+This shows GPU power usage and the load percentage.  
+for AMD: Try checking the GPU utilization by using the commands ````amdconfig --odgc```` and ````amdconfig --odgt````.  
+I do not have an AMD graphics card, so I could not test these commands.
+
+## Known "issue"
+The paused program still registers all keyboard and mouse inputs and will "use" them as soon as the program is unpaused.
+A workaround would be to ALT+TAB out of the program. 
