@@ -9,15 +9,15 @@ If you want to continue playing the game, use the keybind again to resume the ga
 ## Install
 in the command prompt:
 - Clone the git:  
-  ````git clone https://github.com/physphase/GreenGaming````
+  ````git clone https://github.com/physphase/Pause-Your-Program````
 - move inside the directory  
-  ````cd GreenGaming````
+  ````cd Pause-Your-Program````
 - Give privileges to the PauseGame.sh file:  
   ````sudo chmod +x PauseGame.sh````
 - Add a keybind to this file.  
   In Ubuntu 20.04: Settings > Keyboard shortcuts.  
   Scroll all the way down to click the "+" to add a keybind. 
-  Command: enter the location to the PauseGame.sh file: ````./your/location/GreenGaming/PauseGame.sh````
+  Command: enter the location to the PauseGame.sh file: ````./your/location/Pause-Your-Program/PauseGame.sh````
 
 ## Uninstall 
 - Remove keybind from Settings > Keyboard shortcuts
