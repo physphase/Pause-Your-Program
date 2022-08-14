@@ -23,7 +23,7 @@ in the command prompt:
 - Remove keybind from Settings > Keyboard shortcuts
 - Remove privileges (when in correct directory)  
   ````sudo chmod -x PauseGame.sh````
-- Simply delete the GreenGaming folder
+- Simply delete the Pause-Your-Program folder
 
 ## Check GPU usage 
 for Nvidia: check gpu usage by using the command ````nvidia-smi````.   
