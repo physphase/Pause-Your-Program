@@ -5,7 +5,7 @@
 
 function toggleSuspend()
 {
-    #Get ID from program, then check the status of that program. "T" for paused, "S" for running.
+    #Get ID from the active window, then check the status of that program. "T" for paused, "S" for running.
     PID=$(xprop -id `xdotool getwindowfocus` | grep '_NET_WM_PID' | grep -oE '[[:digit:]]*$')
     status="$(ps aux | grep ${PID} | awk '{print $8}')"
     #Only first letter matters, so truncate status
